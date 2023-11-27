@@ -8,7 +8,7 @@ This is a simple Java program for a Hospital Management System using a MySQL dat
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Prerequisites
 
@@ -25,6 +25,20 @@ This is a simple Java program for a Hospital Management System using a MySQL dat
 3. Update the database connection details in the code:
 
    ```java
-   private static final String url = "jdbc:mysql://localhost:3306/hospital_management_system";
+   private static final String url = "jdbc:mysql://localhost:3306/yourDatabaseName";
    private static final String username = "root";
    private static final String password = "MySQLPassword";
+
+
+## Usage
+
+1. Run the `HospitalManagementSystem` class.
+The program provides a simple text-based interface for interacting with the Hospital Management System. Follow the on-screen instructions to add patients, view patients, view doctors, and book appointments.
+
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
+
+This project uses the MySQL database for data storage.
+Special thanks to the [MySQL](https://www.mysql.com/) and [Java](https://www.oracle.com/java/) communities.
